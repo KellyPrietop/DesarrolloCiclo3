@@ -9,3 +9,4 @@ namespace Torneo.App.Dominio
         public Posicion Posicion {get;set;}
     }
 }
+//inicio de sprint 2
