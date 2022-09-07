@@ -1,5 +1,5 @@
 using Torneo.App.Dominio;
-manespace Torneo.App.Persistencia
+namespace Torneo.App.Persistencia
 {
     public interface IRepositorioMunicipio
     {
