@@ -16,6 +16,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("2.Insertar Director Tecnico");
                 Console.WriteLine("3.Insertar Equipo");
                 Console.WriteLine("4.Mostrar Municipios");
+                Console.WriteLine("5.Mostrar Director Tecnico");
                 Console.WriteLine("0.Salir");
                 Console.WriteLine("Seleccione la opcion deseada");
                 opcion = Int32.Parse(Console.ReadLine());
@@ -32,12 +33,17 @@ namespace Torneo.App.Consola
                         break; 
                     case 4:
                         GetAllMunicipios();
-                        break;         
+                        break;  
+                    case 5:
+                        GetAllDTs();
+                        break;           
                 }
 
             } while (opcion !=0) ;
 
         }
+ //Procedimientos de Insert en la base de datos
+
             private static void AddMunicipio()
             {
               Console.WriteLine("Esciba el nombre del municipio");
@@ -82,7 +88,7 @@ namespace Torneo.App.Consola
                 };
                 _repoEquipo.AddEquipo(equipo, idMunicipio,idDT);
             }
-
+//metodos para consultas de datos
             private static void GetAllMunicipios()
             {
                 foreach (var municipio in _repoMunicipio.GetAllMunicipios())
@@ -90,7 +96,14 @@ namespace Torneo.App.Consola
                     Console.WriteLine(municipio.Id + " " + municipio.Nombre);
                 }
             }
-  
+
+            private static void GetAllDTs()
+            {
+                foreach (var dt in _repoDT.GetAllDTs())
+                {
+                    Console.WriteLine(dt.Id + " " + dt.Nombre + " " + dt.Documento + " " + dt.Telefono);
+                }
+            }
 
 
 

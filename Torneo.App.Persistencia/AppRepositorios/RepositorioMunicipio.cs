@@ -13,6 +13,7 @@ namespace Torneo.App.Persistencia
             return municipioInsertado.Entity;
         }
 
+// metodo para consulta de datos
         public IEnumerable<Municipio> GetAllMunicipios()
         {
             return _dataContext.Municipios;
