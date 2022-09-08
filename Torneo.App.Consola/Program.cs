@@ -9,6 +9,7 @@ namespace Torneo.App.Consola
         private static IRepositorioDT _repoDT = new RepositorioDT();
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
+        private static IRepositorioJugador _repoJugador = new RepositorioJugador();
         static void Main(string[] args)
         {
          int opcion = 0;
@@ -17,6 +18,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("2.Insertar Director Tecnico");
                 Console.WriteLine("3.Insertar Equipo");
                 Console.WriteLine("4.Insertar Posicion");
+                Console.WriteLine("5.Insertar Jugador");
                 Console.WriteLine(".Mostrar Municipios");
                 Console.WriteLine(".Mostrar Director Tecnico");
                 Console.WriteLine(".Mostrar Equipos");
@@ -36,7 +38,10 @@ namespace Torneo.App.Consola
                         break; 
                     case 4:
                         AddPosicion();
-                        break;            
+                        break;  
+                    case 5:
+                        AddJugador();
+                        break;              
                 }
 
             } while (opcion !=0) ;
@@ -98,6 +103,26 @@ namespace Torneo.App.Consola
                     Nombre = nombre,
                 };
                 _repoPosicion.AddPosicion(posicion);
+            }
+
+            private static void AddJugador()
+            {
+                Console.WriteLine("Esciba el nombre del jugador");
+                string nombre =Console.ReadLine();
+                Console.WriteLine("Esciba el numero del jugador");
+                int numero =Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Esciba el id del Equipo");
+                int idEquipo =Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Esciba el id de la Posicion");
+                int idPosicion = Int32.Parse(Console.ReadLine());
+
+
+                var jugador = new Jugador
+                {
+                    Nombre = nombre,
+                    Numero = numero,
+                };
+                _repoJugador.AddJugador(jugador,idEquipo,idPosicion);
             }
 
 
