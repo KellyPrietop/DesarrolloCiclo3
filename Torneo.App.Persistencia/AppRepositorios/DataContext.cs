@@ -9,7 +9,7 @@ namespace Torneo.App.Persistencia
        public DbSet<DirectorTecnico> DirectoresTecnicos {get; set;}
        public DbSet<Equipo> Equipos {get; set;}
        public DbSet<Partido> Partidos {get; set;}
-       public DbSet<Posicion> Posiciones {get; set;}
+       public DbSet<Posicion> Posicion {get; set;}
        public DbSet<Jugador> Jugadores {get; set;} 
 
        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
