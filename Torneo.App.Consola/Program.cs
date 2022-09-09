@@ -10,6 +10,7 @@ namespace Torneo.App.Consola
         private static IRepositorioEquipo _repoEquipo = new RepositorioEquipo();
         private static IRepositorioPosicion _repoPosicion = new RepositorioPosicion();
         private static IRepositorioJugador _repoJugador = new RepositorioJugador();
+        private static IRepositorioPartido _repoPartido = new RepositorioPartido();
         static void Main(string[] args)
         {
          int opcion = 0;
@@ -19,6 +20,7 @@ namespace Torneo.App.Consola
                 Console.WriteLine("3.Insertar Equipo");
                 Console.WriteLine("4.Insertar Posicion");
                 Console.WriteLine("5.Insertar Jugador");
+                Console.WriteLine("6.Insertar Partido");
                 Console.WriteLine(".Mostrar Municipios");
                 Console.WriteLine(".Mostrar Director Tecnico");
                 Console.WriteLine(".Mostrar Equipos");
@@ -41,7 +43,11 @@ namespace Torneo.App.Consola
                         break;  
                     case 5:
                         AddJugador();
-                        break;              
+                        break;   
+                    case 6:
+                        AddPartido();
+                        break;      
+
                 }
 
             } while (opcion !=0) ;
@@ -123,6 +129,29 @@ namespace Torneo.App.Consola
                     Numero = numero,
                 };
                 _repoJugador.AddJugador(jugador,idEquipo,idPosicion);
+            }
+
+            private static void AddPartido()
+            {
+                Console.WriteLine("Esciba el id del Equipo Local");
+                int idEquipoLocal =Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Esciba el id del Equipo Visitante");
+                int idEquipoVisitante =Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Esciba la fecha del partido");
+                string fecha =Console.ReadLine();
+                DateTime myDate = DateTime.Parse(fecha);
+                Console.WriteLine("Esciba el Marcador Local");
+                int marcadorL =Int32.Parse(Console.ReadLine());
+                Console.WriteLine("Esciba el Marcador Visitantes");
+                int marcadorv =Int32.Parse(Console.ReadLine());
+                
+                var partido = new Partido
+                {
+                    FechaHora = myDate,
+                    MarcadorLocal = marcadorL,
+                    MarcadorVisitante = marcadorv,
+                };
+                _repoPartido.AddPartido(partido,idEquipoLocal,idEquipoVisitante);
             }
 
 
