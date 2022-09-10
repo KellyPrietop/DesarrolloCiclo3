@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tDkKa+SmUyoKi8vS4k1PS18CeMqaANJj9dYiKM/wca18hIclb2OKly8xC+aeG0ddyz9HSxxB64zX8I6eFJW+FA==",
+  "dgSpecHash": "eSwmhhGBpafGS3cHrU4r3uTjxiJZbh0G3wFpRbMBoiiVxR/EC6KHdsdHfFoY12noxVmU5W6uSlUkiNTQ2FXG6w==",
   "success": true,
-  "projectFilePath": "D:\\Personal\\documentos kelly\\Universidad de caldas\\Ciclo3\\Reto\\Torneo\\Torneo.App\\Torneo.App.Consola\\Torneo.App.Consola.csproj",
+  "projectFilePath": "D:\\Personal\\documentos kelly\\Universidad de caldas\\Ciclo3\\Reto\\Torneo\\Torneo.App\\Torneo.App.consola\\Torneo.App.Consola.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
