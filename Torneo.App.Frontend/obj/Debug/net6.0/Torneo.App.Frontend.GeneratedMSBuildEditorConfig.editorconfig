@@ -15,6 +15,14 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Personal\documentos kelly\Universidad de caldas\Ciclo3\Reto\Torneo\Torneo.App\Torneo.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DTs/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
