@@ -1,0 +1,29 @@
+﻿@page
+@model Torneo.App.Frontend.Pages.Partidos.IndexModel
+@{
+}
+<h1>Listado de Partidos</h1>
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Fecha Partido</th>
+            <th scope="col">Equipo Local</th>
+            <!--<th scope="col">Fecha Partido</th>-->
+            <!--<th scope="col">Equipo visitante</th>-->
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var partido in Model.partidos)
+        {
+            <tr>
+                <th scope="row">@partido.Id</th>
+                <th scope="row">@partido.FechaHora</th>
+                <th scope="row">@partido.Local.Nombre</th>
+                
+           </tr>
+
+        }   
+    </tbody>
+
+</table>
