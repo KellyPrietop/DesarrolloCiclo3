@@ -24,8 +24,16 @@ namespace Torneo.App.Persistencia
                 .Include(e => e.Visitante)
                 .ToList();
             return partido;
+        }
 
-            //return _dataContext.Partidos;
+        public Partido GetPartido(int idPartido)
+        {
+            var partidoEncontrado = _dataContext.Partidos
+            .Where(e => e.Id == idPartido)
+            .Include(e => e.Local)
+            .Include(e => e.Visitante)
+            .FirstOrDefault();
+            return partidoEncontrado;
         }
 
 

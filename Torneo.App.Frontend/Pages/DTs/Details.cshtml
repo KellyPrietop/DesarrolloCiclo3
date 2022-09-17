@@ -1,0 +1,23 @@
+﻿@page
+@model Torneo.App.Frontend.Pages.DTs.DetailsModel
+@{
+}
+<table class="table table-striped">
+    <tr>
+        <th scope="col">Id</th>
+        <td>@Model.dts.Id</td>
+    </tr>
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.dts.Nombre</td>
+    </tr>
+    <tr>
+        <th scope="col">Documento</th>
+        <td>@Model.dts.Documento</td>
+    </tr>
+    <tr>
+        <th scope="col">Telefono</th>
+        <td>@Model.dts.Telefono</td>
+    </tr>
+</table>
+<a class="btn btn-success" asp-page="./Index">Volver</a>

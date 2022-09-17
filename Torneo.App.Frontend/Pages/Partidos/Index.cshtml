@@ -9,8 +9,8 @@
             <th scope="col">Id</th>
             <th scope="col">Fecha Partido</th>
             <th scope="col">Equipo Local</th>
-            <!--<th scope="col">Fecha Partido</th>-->
-            <!--<th scope="col">Equipo visitante</th>-->
+            <th scope="col">Acciones</th>
+
         </tr>
     </thead>
     <tbody>
@@ -20,7 +20,9 @@
                 <th scope="row">@partido.Id</th>
                 <th scope="row">@partido.FechaHora</th>
                 <th scope="row">@partido.Local.Nombre</th>
-                
+                <td>
+                    <a class="btn btn-success" asp-page="./Details" asp-route-id="@partido.Id">Detalle</a>
+                </td>
            </tr>
 
         }   

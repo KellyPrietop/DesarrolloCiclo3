@@ -5,5 +5,6 @@ namespace Torneo.App.Persistencia
     {
         public Partido AddPartido(Partido partido,int idEquipoLocal, int idEquipoVisitante);
         public IEnumerable<Partido> GetAllPartido();
+        public Partido GetPartido(int idPartido);
     }
 }

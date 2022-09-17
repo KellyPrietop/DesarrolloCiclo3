@@ -15,8 +15,16 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\Personal\documentos kelly\Universidad de caldas\Ciclo3\Reto\Torneo\Torneo.App\Torneo.App.Frontend
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DTs/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFRzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/DTs/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRFRzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXF1aXBvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Equipos/Index.cshtml]
@@ -31,16 +39,32 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Jugadores/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSnVnYWRvcmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGlvc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Municipios/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXVuaWNpcGlvc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Partidos/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUGFydGlkb3NcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUG9zaWNpb25lc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/Personal/documentos kelly/Universidad de caldas/Ciclo3/Reto/Torneo/Torneo.App/Torneo.App.Frontend/Pages/Posiciones/Index.cshtml]
