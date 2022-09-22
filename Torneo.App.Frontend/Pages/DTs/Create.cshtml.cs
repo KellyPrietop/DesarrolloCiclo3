@@ -35,3 +35,4 @@ namespace Torneo.App.Frontend.Pages.DTs
         }    
     }
 }
+
